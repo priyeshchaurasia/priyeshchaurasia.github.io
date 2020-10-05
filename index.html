@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Covid</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Montserrat:wght@400;600;800;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"></head>
+
+<body>
+  
+  <section id="home" class="title">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top ">
+
+    <a class="navbar-brand">covid</a>
+
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#precaution">Precautions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#stats">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hospitals">Hospitals</a>
+        </li>
+
+      </ul>
+
+  </nav>
+
+  <div class="row container-fluid">
+    <div class="col-lg-6">
+    <h1>About Corona Virus</h1>
+    <p> Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. </p>
+  <h2>Most common symptoms</h2>
+    <ul>
+      <li>fever</li>
+      <li>dry cough</li>
+      <li>tiredness</li>
+    </ul>
+  </div>
+  <div class="col-lg-6 mx-auto">
+
+    <img class="img1" src="images/covid.png" alt="covid_Image" >
+  </div>
+
+  </div>
+
+  </section>
+
+  <section id="precaution" class="precautions">
+    <h1 >Precautions </h1>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <img src="images/home.png" alt="home">
+        <h3><strong>Stay Home</strong></h3>
+        <p class="pgrey">This is palette no. 207323 in Color Hunt's schemes collection. A hand-picked palette, free to use for designers and artists.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <img src="images/social.png" alt="home">
+        <h3><strong>Keep a safe distance</strong></h3>
+        <p class="pgrey">This is palette no. 207323 in Color Hunt's schemes collection. A hand-picked palette, free to use for designers and artists.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <img src="images/hand-wash.png" alt="home">
+        <h3><strong>Wash your hands</strong></h3>
+        <p class="pgrey">This is palette no. 207323 in Color Hunt's schemes collection. A hand-picked palette, free to use for designers and artists.</p>
+      </div>
+      <div class="feature-box col-lg-2">
+
+      </div>
+      <div class="feature-box col-lg-4">
+        <img src="images/mask.png" alt="home">
+        <h3><strong>Wear Mask</strong></h3>
+        <p class="pgrey">This is palette no. 207323 in Color Hunt's schemes collection. A hand-picked palette, free to use for designers and artists.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <img src="images/doctor.png" alt="">
+        <h3><strong>Seek medical help</strong></h3>
+        <p class="pgrey">This is palette no. 207323 in Color Hunt's schemes collection. A hand-picked palette, free to use for designers and artists.</p>
+      </div>
+      <div class="feature-box col-lg-2">
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="tests" class="test">
+<h1>Type of Tests</h1>
+    <div class="row">
+      <div class="feature-box col-lg-6">
+        <img src="images/antibodies.png" alt="home">
+        <h3><strong>Anti-Body Test</strong></h3>
+        <p >Anti-body tests also known as serological tests, are used to find out the presence of virus in a body. In this method of testing, blood samples are used to find anti-bodies. This process also detects the quantity of antibodies that are produced by the immune system.</p>
+      </div>
+      <div class="feature-box col-lg-6">
+        <img src="images/drugs.png" alt="home">
+        <h3><strong>RT-PCR Test</strong></h3>
+        <p >The RT-PCR test is a method of testing by taking a nasal/throat swab from a patient. It involves extracting ribonucleic acid or RNA, which is the genetic material of the virus.</p>
+      </div>
+      </div>
+
+
+  </section>
+
+  <section  id="stats" class="caseStats">
+    <h1>Stats & Map</h1>
+    <iframe width="100%" height="576" src="https://app.developer.here.com/coronavirus/" frameborder="0"></iframe>
+
+  </section>
+
+  <section id="hospitals" class="hospital">
+    <h1>Nearby Hospitals</h1>
+    <table class="table table-hover table-light">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Area</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Lok Nayak Hospital and GB Pant Hospital</td>
+      <td>New Delhi </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Deen Dayal Upadhyay</td>
+      <td>Hari Nagar</td>
+
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Guru Teg Bahadur Hospital</td>
+      <td>Dilshad Garden</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td >Rajiv Gandhi Super Speciality Hospital</td>
+      <td> East Delhi </td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Baba Saheb Ambedkar Hospital</td>
+      <td>Rohini</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Apollo</td>
+      <td>Sarita Vihar</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Batra</td>
+      <td>Tuglakabad</td>
+    </tr>
+  </tbody>
+</table>
+
+  </section>
+
+
+</html>
